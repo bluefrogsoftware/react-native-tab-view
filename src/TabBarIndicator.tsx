@@ -49,6 +49,7 @@ export default class TabBarIndicator<T extends Route> extends React.Component<
       this.isIndicatorShown = true;
 
       Animated.timing(this.opacity, {
+        useNativeDriver: false,
         duration: 150,
         toValue: 1,
         easing: Easing.in(Easing.linear),

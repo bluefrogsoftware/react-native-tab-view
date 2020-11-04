@@ -114,6 +114,7 @@ const SPRING_CONFIG = {
 const SPRING_VELOCITY_SCALE = 1;
 
 const TIMING_CONFIG = {
+  useNativeDriver: false,
   duration: 200,
   easing: Easing.out(Easing.cubic),
 };
