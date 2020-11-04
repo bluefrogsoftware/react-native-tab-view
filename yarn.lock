@@ -9126,10 +9126,9 @@ react-native-gesture-handler@~1.6.0:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-reanimated@~1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.9.0.tgz#38676c99dd585504fdc7331efb45e5f48ec7339a"
-  integrity sha512-Aj+spgIHRiVv7ezGADxnSH1EoKrQRD2+XaSiGY0MiB/pvRNNrZPSJ+3NVpvLwWf9lZMOP7dwqqyJIzoZgBDt8w==
+"react-native-reanimated@https://github.com/bluefrogsoftware/react-native-reanimated.git#v1":
+  version "1.13.1"
+  resolved "https://github.com/bluefrogsoftware/react-native-reanimated.git#f0cd2bd5ad3d6c08e67dee591253794c2753a6e6"
   dependencies:
     fbjs "^1.0.0"
 
